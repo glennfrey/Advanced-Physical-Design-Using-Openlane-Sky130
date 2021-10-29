@@ -92,7 +92,7 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 ##### SKY_L4 - Introduction to OpenLANE detailed ASIC design flow
 ![](imagesday1lec/vlcsnap-2021-10-28-15h08m14s103.png)
 ![](imagesday1lec/vlcsnap-2021-10-28-15h08m26s065.png)
-![](imagesday1lec/vlcsnap-2021-10-28-15h08m14s103.png)
+![](imagesday1lec/vlcsnap-2021-10-28-15h08m31s233.png)
 ![](imagesday1lec/vlcsnap-2021-10-28-15h08m33s122.png)
 ![](imagesday1lec/vlcsnap-2021-10-28-15h08m42s506.png)
 ![](imagesday1lec/vlcsnap-2021-10-28-15h08m55s841.png)

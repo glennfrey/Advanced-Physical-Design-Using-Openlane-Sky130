@@ -74,7 +74,7 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
       - SKY_L7 - Lab exercise to implement poly resistor spacing to diff and tap
       - SKY_L8 - Lab challenge exercise to describe DRC error as geometrical construct
       - SKY_L9 - Lab challenge to find missing or incorrect rules and fix them
-
+## Sky130 Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
 ### SKY130_D1_SK1 - How to talk to computers
 ##### SKY_L1 - Introduction to QFN-48 Package, chip, pads, core, die and IPs
 ![](imagesday1lec/vlcsnap-2021-10-28-15h04m27s930.png)
@@ -116,3 +116,27 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 ![](imagesday1lab/synthesis_openstarpt.png)
 ![](imagesday1lab/synthesis_openstatimingrpt.png)
 ![](imagesday1lab/end_day1.png)
+## Sky130 Day 2 - Good floorplan vs bad floorplan and introduction to library cells
+### SKY130_D2_SK1 - Chip Floor planning considerations
+##### SKY_L1 - Utilization factor and aspect ratio
+##### SKY_L2 - Concept of pre-placed cells
+##### SKY_L3 - De-coupling capacitors
+##### SKY_L4 - Power planning
+##### SKY_L5 - Pin placement and logical cell placement blockage
+##### SKY_L6 - Steps to run floorplan using OpenLANE
+##### SKY_L7 - Review floorplan files and steps to view floorplan
+##### SKY_L8 - Review floorplan layout in Magic
+### SKY130_D2_SK2 - Library Binding and Placement
+##### SKY_L1 - Netlist binding and initial place design
+##### SKY_L2 - Optimize placement using estimated wire-length and capacitance
+##### SKY_L3 - Final placement optimization
+##### SKY_L4 - Need for libraries and characterization
+##### SKY_L5 - Congestion aware placement using RePlAce
+### SKY130_D2_SK3 - Cell design and characterization flows
+##### SKY_L1 - Inputs for cell design flow
+##### SKY_L2 - Circuit design step
+##### SKY_L3 - Layout design step
+##### SKY_L4 - Typical characterization flow
+### SKY130_D2_SK4 - General timing characterization parameters
+##### SKY_L1 - Timing threshold definitions
+##### SKY_L2 - Propagation delay and transition time

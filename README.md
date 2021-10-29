@@ -147,7 +147,7 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 ![](imagesday2lec/vlcsnap-2021-10-28-20h35m30s378.png)
 ##### SKY_L5 - Congestion aware placement using RePlAce
 ![](imagesday2lab/placement_command.png)
-![](imagesday2lab/placement layout.png)
+![](imagesday2lab/placement_layout.png)
 ### SKY130_D2_SK3 - Cell design and characterization flows
 ##### SKY_L1 - Inputs for cell design flow
 ![](imagesday2lec/vlcsnap-2021-10-28-20h37m22s819.png)

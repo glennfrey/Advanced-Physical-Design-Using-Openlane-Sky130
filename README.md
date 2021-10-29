@@ -118,43 +118,45 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 ## Sky130 Day 2 - Good floorplan vs bad floorplan and introduction to library cells
 ### SKY130_D2_SK1 - Chip Floor planning considerations
 ##### SKY_L1 - Utilization factor and aspect ratio
-![](imagesday2lec/end_day1.png)
+![](imagesday2lec/vlcsnap-2021-10-28-20h25m37s780.png)
+![](imagesday2lec/vlcsnap-2021-10-28-20h26m06s027.png)
 ##### SKY_L2 - Concept of pre-placed cells
-![](imagesday2lec/end_day1.png)
+![](imagesday2lec/vlcsnap-2021-10-28-20h26m42s607.png)
+![](imagesday2lec/vlcsnap-2021-10-28-20h26m51s889.png)
 ##### SKY_L3 - De-coupling capacitors
-![](imagesday2lec/end_day1.png)
+![](imagesday2lec/vlcsnap-2021-10-28-20h27m16s914.png)
 ##### SKY_L4 - Power planning
-![](imagesday2lec/end_day1.png)
+![](imagesday2lec/vlcsnap-2021-10-28-20h27m41s770.png)
 ##### SKY_L5 - Pin placement and logical cell placement blockage
-![](imagesday2lec/end_day1.png)
+![](imagesday2lec/vlcsnap-2021-10-28-20h35m05s657.png)
 ##### SKY_L6 - Steps to run floorplan using OpenLANE
-![](imagesday2lec/end_day1.png)
+![](imagesday2lec/vlcsnap-2021-10-28-20h35m05s657.png)
 ##### SKY_L7 - Review floorplan files and steps to view floorplan
-![](imagesday2lec/end_day1.png)
+![](imagesday2lec/vlcsnap-2021-10-28-20h35m05s657.png)
 ##### SKY_L8 - Review floorplan layout in Magic
-![](imagesday2lec/end_day1.png)
+![](imagesday2lec/vlcsnap-2021-10-28-20h35m05s657.png)
 ### SKY130_D2_SK2 - Library Binding and Placement
 ##### SKY_L1 - Netlist binding and initial place design
-![](imagesday2lec/end_day1.png)
+![](imagesday2lec/vlcsnap-2021-10-28-20h35m05s657.png)
 ##### SKY_L2 - Optimize placement using estimated wire-length and capacitance
-![](imagesday2lec/end_day1.png)
+![](imagesday2lec/vlcsnap-2021-10-28-20h35m05s657.png)
 ##### SKY_L3 - Final placement optimization
-![](imagesday2lec/end_day1.png)
+![](imagesday2lec/vlcsnap-2021-10-28-20h35m05s657.png)
 ##### SKY_L4 - Need for libraries and characterization
-![](imagesday2lec/end_day1.png)
+![](imagesday2lec/vlcsnap-2021-10-28-20h35m05s657.png)
 ##### SKY_L5 - Congestion aware placement using RePlAce
-![](imagesday2lec/end_day1.png)
+![](imagesday2lec/vlcsnap-2021-10-28-20h35m05s657.png)
 ### SKY130_D2_SK3 - Cell design and characterization flows
 ##### SKY_L1 - Inputs for cell design flow
-![](imagesday2lec/end_day1.png)
+![](imagesday2lec/vlcsnap-2021-10-28-20h35m05s657.png)
 ##### SKY_L2 - Circuit design step
-![](imagesday2lec/end_day1.png)
+![](imagesday2lec/vlcsnap-2021-10-28-20h35m05s657.png)
 ##### SKY_L3 - Layout design step
 ![](imagesday2lec/end_day1.png)
 ##### SKY_L4 - Typical characterization flow
-![](imagesday2lec/end_day1.png)
+![](imagesday2lec/vlcsnap-2021-10-28-20h35m05s657.png)
 ### SKY130_D2_SK4 - General timing characterization parameters
 ##### SKY_L1 - Timing threshold definitions
-![](imagesday2lec/end_day1.png)
+![](imagesday2lec/vlcsnap-2021-10-28-20h35m05s657.png)
 ##### SKY_L2 - Propagation delay and transition time
-![](imagesday2lec/end_day1.png)
+![](imagesday2lec/vlcsnap-2021-10-28-20h35m05s657.png)

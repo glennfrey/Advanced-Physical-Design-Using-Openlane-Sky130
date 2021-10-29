@@ -104,11 +104,15 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 ![](imagesday1lab/openlane_designs.png)
 ##### SKY_L2 - Design Preparation Step
 ![](imagesday1lab/openlane_working.png)
-![](imagesday1lab/openlane_working.png)
-![](imagesday1lab/openlane_working.png)
+![](imagesday1lab/prep_design.png)
 ##### SKY_L3 - Review files after design prep and run synthesis
-![](imagesday1lab/openlane_working.png)
+![](imagesday1lab/file_created_after_executing_prep_design.png)
+![](imagesday1lab/runs_tmp.png)
+![](imagesday1lab/merged.lef.png)
 ##### SKY_L4 - OpenLANE Project Git Link Description
-![](imagesday1lab/openlane_working.png)
 ##### SKY_L5 - Steps to characterize synthesis results
-![](imagesday1lab/openlane_working.png)
+![](imagesday1lab/run_synthesis.png)
+![](imagesday1lab/yosys_stat_report.png)
+![](imagesday1lab/synthesis_openstarpt.png)
+![](imagesday1lab/synthesis_openstatimingrpt.png)
+![](imagesday1lab/end_day1.png)

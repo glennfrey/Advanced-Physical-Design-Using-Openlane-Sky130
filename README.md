@@ -130,7 +130,7 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 ##### SKY_L5 - Pin placement and logical cell placement blockage
 ![](imagesday2lec/vlcsnap-2021-10-28-20h30m10s913.png)
 ##### SKY_L6 - Steps to run floorplan using OpenLANE
-![](imagesday2lab/run_floorplan_complete.png)
+![](imagesday2lab/run_floorplan_command.png)
 ##### SKY_L7 - Review floorplan files and steps to view floorplan
 ![](imagesday2lab/results_floorplan.png)
 ![](imagesday2lab/magic_opening.png)

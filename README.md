@@ -74,3 +74,9 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
       - SKY_L7 - Lab exercise to implement poly resistor spacing to diff and tap
       - SKY_L8 - Lab challenge exercise to describe DRC error as geometrical construct
       - SKY_L9 - Lab challenge to find missing or incorrect rules and fix them
+
+### SKY130_D1_SK1 - How to talk to computers
+##### SKY_L1 - Introduction to QFN-48 Package, chip, pads, core, die and IPs
+![](imagesday1lec/vlcsnap-2021-10-28-15h04m27s930.png)
+##### SKY_L2 - Introduction to RISC-V
+##### SKY_L3 - From Software Applications to Hardware

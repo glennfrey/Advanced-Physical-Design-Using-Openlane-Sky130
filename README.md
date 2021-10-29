@@ -159,7 +159,8 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 ![](imagesday2lec/vlcsnap-2021-10-28-20h38m31s469.png)
 ### SKY130_D2_SK4 - General timing characterization parameters
 ##### SKY_L1 - Timing threshold definitions
-![](imagesday2lec/vlcsnap-2021-10-28-20h39m52s302.png)
+![](transition_time.png)
 ##### SKY_L2 - Propagation delay and transition time
 ![](imagesday2lec/vlcsnap-2021-10-28-20h39m33s995.png)
-![](transition_time.png)
+![](imagesday2lec/vlcsnap-2021-10-28-20h39m52s302.png)
+

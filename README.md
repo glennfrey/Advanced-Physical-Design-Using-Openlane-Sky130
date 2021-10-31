@@ -148,20 +148,30 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 ![](imagesday2lab/placement_layout.png)
 
 ### Day 3
-![](imagesday2lec/vlcsnap-2021-10-28-20h37m22s819.png)
-##### Circuit design step
-![](imagesday2lec/vlcsnap-2021-10-28-20h38m00s301.png)
-##### Layout design step
-![](imagesday2lec/vlcsnap-2021-10-28-20h38m04s188.png)
-##### Typical characterization flow
-![](imagesday2lec/vlcsnap-2021-10-28-20h38m31s469.png)
-### General timing characterization parameters
-##### Timing threshold definitions
-![](transition_time.png)
+![](imagesday3/inv_standard_cell_clone.png)
+##### 
+
+![](imagesday3/inv_layout_magic.png)
+##### 
+
+![](imagesday3/characterize_inverter2spice.png)
+##### 
+
+![](imagesday3/sky130_invspice_open.png)
+##### 
+
+![](imagesday3/sky130_invspice_edited.png)
+
 ##### Propagation delay and transition time
-![](imagesday2lec/vlcsnap-2021-10-28-20h39m33s995.png)
-![](imagesday2lec/vlcsnap-2021-10-28-20h39m52s302.png)
+
+![](imagesday3/updateddeck3.png)
+
+![](imagesday4/ngspice.png)
+
+![](imagesday4/ngspice2.png)
+
 ##### Day 4
+
 ![](imagesday4/open_inv_via+magic.png)
 
 ![](imagesday4/tracks.info.png)
@@ -201,10 +211,6 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 ![](imagesday4/includeinconfigtcl.png)
 
 - add the modify the config.tcl file as shown.
-
-![](imagesday4/ngspice.png)
-
-![](imagesday4/ngspice2.png)
 
 ![](imagesday4/day4final.png)
 

@@ -164,20 +164,46 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 ![](imagesday2lec/vlcsnap-2021-10-28-20h39m33s995.png)
 ![](imagesday2lec/vlcsnap-2021-10-28-20h39m52s302.png)
 ##### Day 4
-![](imagesday4/layout1.png)
+![](imagesday4/open_inv_via+magic.png)
+
+![](imagesday4/tracks.info.png)
+
+![](imagesday4/layoutinvcloser.png)
+
+![](imagesday4/tracks.png)
+
+![](imagesday4/grid.png)
+
+![](imagesday4/checkalongthegrid.png)
+
+![](imagesday4/layout.png)
+
 - label the port with associated pin number.
+
 ![](imagesday4/layout2.png)
+
 - assign each port as input or output port as in vtcon window.
+- 
 ![](imagesday4/save_skyinmag.png)
+
 - generate a mag file for the inverter using the vtcon window as shown
+- 
 ![](imagesday4/generate_lef_file_from_inv_mag_file.png)
+
 -generate a lef file from the mag file in the vtcon window with the command shown.
+
 ![](imagesday4/pinsequencelefile.png)
+
 -inside the lef file is the pin sequence you assign using magic.
+
 ![](imagesday4/copyassociatedfiles.png)
+
 -copy the lef file and inv standard lib fle as highlighted into the picorv32/src folder.
+
 ![](imagesday4/includeinconfigtcl.png)
--add the highlighted commands as shown.
+
+-add the modify the config.tcl file as shown.
+
 ![](imagesday4/rundockercommands.png)
 -
 

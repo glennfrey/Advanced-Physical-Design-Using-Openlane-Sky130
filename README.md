@@ -98,7 +98,7 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
   - run_lvs
   - run_magic_antenna_check
 
-##### SKY_L1 - OpenLANE Directory structure in detail
+##### OpenLANE Directory structure in detail
 
 ![](imagesday1lab/ref_and_tech_libs.png)
 
@@ -108,53 +108,45 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 
 ![](imagesday1lab/openlane_designs.png)
 
-##### SKY_L2 - Design Preparation Step
+##### Design Preparation Step
 
 ![](imagesday1lab/openlane_working.png)
 
-##### SKY_L3 - Review files after design prep and run synthesis
+##### Review files after design prep and run synthesis
 ![](imagesday1lab/file_created_after_executing_prep_design.png)
 ![](imagesday1lab/merged.lef.png)
-##### SKY_L4 - OpenLANE Project Git Link Description
-##### SKY_L5 - Steps to characterize synthesis results
+
+##### Steps to characterize synthesis results
 ![](imagesday1lab/run_synthesis.png)
 ![](imagesday1lab/yosys_stat_report.png)
 ![](imagesday1lab/synthesis_openstarpt.png)
 ![](imagesday1lab/synthesis_openstatimingrpt.png)
 ![](imagesday1lab/end_day1.png)
-## Sky130 Day 2 - Good floorplan vs bad floorplan and introduction to library cells
-### SKY130_D2_SK1 - Chip Floor planning considerations
-##### SKY_L1 - Utilization factor and aspect ratio
-![](imagesday2lec/vlcsnap-2021-10-28-20h25m37s780.png)
-![](imagesday2lec/vlcsnap-2021-10-28-20h26m06s027.png)
-##### SKY_L2 - Concept of pre-placed cells
-![](imagesday2lec/vlcsnap-2021-10-28-20h26m42s607.png)
-![](imagesday2lec/vlcsnap-2021-10-28-20h26m51s889.png)
-##### SKY_L3 - De-coupling capacitors
-![](imagesday2lec/vlcsnap-2021-10-28-20h27m16s914.png)
-##### SKY_L4 - Power planning
-![](imagesday2lec/vlcsnap-2021-10-28-20h27m41s770.png)
-##### SKY_L5 - Pin placement and logical cell placement blockage
-![](imagesday2lec/vlcsnap-2021-10-28-20h30m10s913.png)
-##### SKY_L6 - Steps to run floorplan using OpenLANE
+
+### Day 2
+
+##### Steps to run floorplan using OpenLANE
+
 ![](run_floorplan_command.png)
-##### SKY_L7 - Review floorplan files and steps to view floorplan
+
+##### Review floorplan files and steps to view floorplan
+
 ![](imagesday2lab/results_floorplan.png)
+
 ![](imagesday2lab/magic_opening.png)
-##### SKY_L8 - Review floorplan layout in Magic
+
+##### Review floorplan layout in Magic
+
 ![](imagesday2lab/tkcon_window_what.png)
-### SKY130_D2_SK2 - Library Binding and Placement
-##### SKY_L1 - Netlist binding and initial place design
-![](imagesday2lec/vlcsnap-2021-10-28-20h34m36s183.png)
-##### SKY_L2 - Optimize placement using estimated wire-length and capacitance
-![](imagesday2lec/vlcsnap-2021-10-28-20h35m05s657.png)
-##### SKY_L3 - Final placement optimization
-![](imagesday2lec/vlcsnap-2021-10-28-20h35m05s657.png)
-##### SKY_L4 - Need for libraries and characterization
-![](imagesday2lec/vlcsnap-2021-10-28-20h35m30s378.png)
-##### SKY_L5 - Congestion aware placement using RePlAce
+
+### Library Binding and Placement
+
+#####- Congestion aware placement using RePlAce
+
 ![](imagesday2lab/placement_command.png)
+
 ![](imagesday2lab/placement_layout.png)
+
 ### Day 3
 ![](imagesday2lec/vlcsnap-2021-10-28-20h37m22s819.png)
 ##### Circuit design step
@@ -216,7 +208,7 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 
 ![](imagesday4/day4final.png)
 
-##### Day 4
+##### Day 5
 
 ![](imagesday4/day5.png)
 

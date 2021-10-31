@@ -198,12 +198,13 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 
 ![](imagesday4/copyassociatedfiles.png)
 
--copy the lef file and inv standard lib fle as highlighted into the picorv32/src folder.
+- copy the lef file and inv standard lib fle as highlighted into the picorv32/src folder.
 
 ![](imagesday4/includeinconfigtcl.png)
 
--add the modify the config.tcl file as shown.
+- add the modify the config.tcl file as shown.
 
 ![](imagesday4/rundockercommands.png)
+
 -
 

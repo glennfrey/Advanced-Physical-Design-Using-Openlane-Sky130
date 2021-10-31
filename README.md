@@ -183,18 +183,18 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 ![](imagesday4/layout2.png)
 
 - assign each port as input or output port as in vtcon window.
-- 
+
 ![](imagesday4/save_skyinmag.png)
 
 - generate a mag file for the inverter using the vtcon window as shown
-- 
+
 ![](imagesday4/generate_lef_file_from_inv_mag_file.png)
 
--generate a lef file from the mag file in the vtcon window with the command shown.
+- generate a lef file from the mag file in the vtcon window with the command shown.
 
 ![](imagesday4/pinsequenceletfile.png)
 
--inside the lef file is the pin sequence you assign using magic.
+- inside the lef file are the pin sequence you assign using magic.
 
 ![](imagesday4/copyassociatedfiles.png)
 

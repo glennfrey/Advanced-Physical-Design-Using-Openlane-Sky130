@@ -80,9 +80,7 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 
 ![](imagesday1lec/vlcsnap-2021-10-28-15h04m27s930.png)
 
-##### Introduction to RISC-V
-
-![](imagesday1lec/vlcsnap-2021-10-28-15h05m47s611.png)
+- We started by how the application runs. Then go deep into the chip level and how VLSI came into the picture.
 
 ### - COMMAND FLOW
 
@@ -113,14 +111,29 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 ![](imagesday1lab/openlane_working.png)
 
 ##### Review files after design prep and run synthesis
+
 ![](imagesday1lab/file_created_after_executing_prep_design.png)
+
 ![](imagesday1lab/merged.lef.png)
 
 ##### Steps to characterize synthesis results
+
 ![](imagesday1lab/run_synthesis.png)
+
+- run the synthesis by executing the command in openlane environment
+
 ![](imagesday1lab/yosys_stat_report.png)
+
+- reports are synthesis reports generated under reports/synthesis folder
+
 ![](imagesday1lab/synthesis_openstarpt.png)
+
+- synthesis related timing reports are generated
+
 ![](imagesday1lab/synthesis_openstatimingrpt.png)
+
+-timing reports
+
 ![](imagesday1lab/end_day1.png)
 
 ### Day 2
@@ -216,9 +229,22 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 
 - add the modify the config.tcl file as shown.
 
+![](imagesday4/invadded.png)
+
+=as shown we successfully added the inverter
+
 ![](imagesday4/day4final.png)
+
+-final task of the day
 
 ##### Day 5
 
 ![](imagesday4/day5.png)
+
+- this is the finals task of the workshop RTL2GDS. This demonstrates and conclude the final lab session.
+
+##### Special Thanks to:
+
+- Mr. Nickson Jose for helping me when I was stuck in the labs.
+- Mr. Kunal Ghosh for this whole webinar duration.
 

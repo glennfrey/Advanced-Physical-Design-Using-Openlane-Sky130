@@ -148,16 +148,20 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 ![](imagesday2lab/placement_layout.png)
 
 ### Day 3
+
 ![](imagesday3/inv_standard_cell_clone.png)
+
 ##### 
 
 ![](imagesday3/inv_layout_magic.png)
 ##### 
 
 ![](imagesday3/characterize_inverter2spice.png)
+
 ##### 
 
 ![](imagesday3/sky130_invspice_open.png)
+
 ##### 
 
 ![](imagesday3/sky130_invspice_edited.png)
@@ -170,7 +174,7 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 
 ![](imagesday4/ngspice2.png)
 
-##### Day 4
+### Day 4
 
 ![](imagesday4/open_inv_via+magic.png)
 

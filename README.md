@@ -74,37 +74,44 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
       - SKY_L7 - Lab exercise to implement poly resistor spacing to diff and tap
       - SKY_L8 - Lab challenge exercise to describe DRC error as geometrical construct
       - SKY_L9 - Lab challenge to find missing or incorrect rules and fix them
-## Sky130 Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
-### SKY130_D1_SK1 - How to talk to computers
-##### SKY_L1 - Introduction to QFN-48 Package, chip, pads, core, die and IPs
+
+### Day 1
+##### Introduction
+
 ![](imagesday1lec/vlcsnap-2021-10-28-15h04m27s930.png)
-##### SKY_L2 - Introduction to RISC-V
+
+##### Introduction to RISC-V
+
 ![](imagesday1lec/vlcsnap-2021-10-28-15h05m47s611.png)
-##### SKY_L3 - From Software Applications to Hardware
-![](imagesday1lec/vlcsnap-2021-10-28-15h05m16s685.png)
-### SKY130_D1_SK2 - SoC design and OpenLANE
-##### SKY_L1 - Introduction to all components of open-source digital asic design
-![](imagesday1lec/vlcsnap-2021-10-28-15h09m40s547.png)
-##### SKY_L2 - Simplified RTL2GDS flow
-![](imagesday1lec/vlcsnap-2021-10-28-15h08m09s395.png)
-![](imagesday1lec/vlcsnap-2021-10-28-15h08m14s103.png)
-![](imagesday1lec/vlcsnap-2021-10-28-15h08m26s065.png)
-![](imagesday1lec/vlcsnap-2021-10-28-15h08m31s233.png)
-![](imagesday1lec/vlcsnap-2021-10-28-15h08m33s122.png)
-![](imagesday1lec/vlcsnap-2021-10-28-15h08m42s506.png)
-![](imagesday1lec/vlcsnap-2021-10-28-15h08m55s841.png)
-##### SKY_L3 - Introduction to OpenLANE and Strive chipsets
-![](imagesday1lec/vlcsnap-2021-10-28-15h09m17s372.png)
-##### SKY_L4 - Introduction to OpenLANE detailed ASIC design flow
-![](imagesday1lec/vlcsnap-2021-10-28-15h11m06s069.png)
-### SKY130_D1_SK3 - Get familiar to open-source EDA tools
+
+### - COMMAND FLOW
+
+  - run_synthesis
+  - run_floorplan
+  - run_placement
+  - run_cts
+  - gen_pdn
+  - run_routing
+  - run_magic
+  - run_magic_spice_export
+  - run_magic_drc
+  - run_lvs
+  - run_magic_antenna_check
+
 ##### SKY_L1 - OpenLANE Directory structure in detail
+
 ![](imagesday1lab/ref_and_tech_libs.png)
+
 ![](imagesday1lab/ref_and_tech_2.png)
+
 ![](imagesday1lab/inside_sky130_fd_sc_hd.png)
+
 ![](imagesday1lab/openlane_designs.png)
+
 ##### SKY_L2 - Design Preparation Step
+
 ![](imagesday1lab/openlane_working.png)
+
 ##### SKY_L3 - Review files after design prep and run synthesis
 ![](imagesday1lab/file_created_after_executing_prep_design.png)
 ![](imagesday1lab/merged.lef.png)
@@ -148,19 +155,18 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 ##### SKY_L5 - Congestion aware placement using RePlAce
 ![](imagesday2lab/placement_command.png)
 ![](imagesday2lab/placement_layout.png)
-### SKY130_D2_SK3 - Cell design and characterization flows
-##### SKY_L1 - Inputs for cell design flow
+### Day 3
 ![](imagesday2lec/vlcsnap-2021-10-28-20h37m22s819.png)
-##### SKY_L2 - Circuit design step
+##### Circuit design step
 ![](imagesday2lec/vlcsnap-2021-10-28-20h38m00s301.png)
-##### SKY_L3 - Layout design step
+##### Layout design step
 ![](imagesday2lec/vlcsnap-2021-10-28-20h38m04s188.png)
-##### SKY_L4 - Typical characterization flow
+##### Typical characterization flow
 ![](imagesday2lec/vlcsnap-2021-10-28-20h38m31s469.png)
-### SKY130_D2_SK4 - General timing characterization parameters
-##### SKY_L1 - Timing threshold definitions
+### General timing characterization parameters
+##### Timing threshold definitions
 ![](transition_time.png)
-##### SKY_L2 - Propagation delay and transition time
+##### Propagation delay and transition time
 ![](imagesday2lec/vlcsnap-2021-10-28-20h39m33s995.png)
 ![](imagesday2lec/vlcsnap-2021-10-28-20h39m52s302.png)
 ##### Day 4
@@ -204,7 +210,13 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 
 - add the modify the config.tcl file as shown.
 
-![](imagesday4/rundockercommands.png)
+![](imagesday4/ngspice.png)
 
--
+![](imagesday4/ngspice2.png)
+
+![](imagesday4/day4final.png)
+
+##### Day 4
+
+![](imagesday4/day5.png)
 

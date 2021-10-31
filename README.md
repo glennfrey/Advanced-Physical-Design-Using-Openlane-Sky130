@@ -192,7 +192,7 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 
 -generate a lef file from the mag file in the vtcon window with the command shown.
 
-![](imagesday4/pinsequencelefile.png)
+![](imagesday4/pinsequenceletfile.png)
 
 -inside the lef file is the pin sequence you assign using magic.
 

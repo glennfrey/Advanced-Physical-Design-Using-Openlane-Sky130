@@ -75,15 +75,51 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
       - SKY_L8 - Lab challenge exercise to describe DRC error as geometrical construct
       - SKY_L9 - Lab challenge to find missing or incorrect rules and fix them
 
-### Day 1
+
 ##### Introduction
 
 ![](imagesday1lec/vlcsnap-2021-10-28-15h04m27s930.png)
 
 - We started by how the application runs. Then go deep into the chip level and how VLSI came into the picture.
 
+### RTL2GDS flow
+
+![](imagesday1lec/vlcsnap-2021-10-28-15h09m41s996.png)
+
+- OpenLane flow is an RTL2GDS tool that uses several tool from synthesis, floorplan, placement, clock tree synthesis, routing, GDS generation to checkng. Below are the process flow and corresponding tools.
+
+##### Synthesis
+- yosys - Performs RTL synthesis
+- abc - Performs technology mapping
+- OpenSTA - Performs static timing analysis on the resulting netlist to generate timing reports
+##### Floorplan and PDN
+- init_fp - Defines the core area for the macro as well as the rows (used for placement) and the tracks (used for routing)
+- ioplacer - Places the macro input and output ports
+- pdn - Generates the power distribution network
+- tapcell - Inserts welltap and decap cells in the floorplan
+##### Placement
+- RePLace - Performs global placement
+- Resizer - Performs optional optimizations on the design
+- OpenDP - Perfroms detailed placement to legalize the globally placed components
+##### CTS
+- TritonCTS - Synthesizes the clock distribution network (the clock tree)
+##### Routing
+- FastRoute - Performs global routing to generate a guide file for the detailed router
+- CU-GR - Another option for performing global routing.
+- TritonRoute - Performs detailed routing
+- SPEF-Extractor - Performs SPEF extraction
+##### GDSII Generation
+- Magic - Streams out the final GDSII layout file from the routed def
+- Klayout - Streams out the final GDSII layout file from the routed def as a back-up
+- Checks
+- Magic - Performs DRC Checks & Antenna Checks
+- Klayout - Performs DRC Checks
+- Netgen - Performs LVS Checks
+- CVC - Performs Circuit Validity Checks
+
 ### - COMMAND FLOW
 
+  - prep design
   - run_synthesis
   - run_floorplan
   - run_placement
@@ -96,25 +132,87 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
   - run_lvs
   - run_magic_antenna_check
 
-##### OpenLANE Directory structure in detail
+### Day 1
+
+- We explore how OpenLane works with Sky130 PDK, its working directory, its initial configurations, how to invoke commands and where to find the generated results.
 
 ![](imagesday1lab/ref_and_tech_libs.png)
 
+- as shown sky130a.tech is the Skywater PDK we are using. It composes of libs.tech and libs.ref. These file is dependent on the process technology we are using. In this case, the parameters, tools and technology use in skywater foundry.
+
 ![](imagesday1lab/ref_and_tech_2.png)
+
+- the files inside 
 
 ![](imagesday1lab/inside_sky130_fd_sc_hd.png)
 
+- this files inside sky130_fd_sc_hd are use by the EDA tools in the design process.
+
 ![](imagesday1lab/openlane_designs.png)
+
+- inside openlane/designs are the open RTL designs ready for use. In this lab we are using RISC-V picorv32.v and INVERTER inv.v
 
 ##### Design Preparation Step
 
 ![](imagesday1lab/openlane_working.png)
 
+- To start openlane we invoke the following commands:
+
+* docker - to open openlane
+* prep design - to prepare necessary files in the project you are working
+* package require openlane 0.9 - to get the latest version
+
 ##### Review files after design prep and run synthesis
 
 ![](imagesday1lab/file_created_after_executing_prep_design.png)
 
+- after invoking run_synthesis command in openlane. a run folder is generated which comprises of results, reports, temportary files and configurations.
+
+designs/<design_name>
+├── config.tcl
+├── runs
+│   ├── <tag>
+│   │   ├── config.tcl
+│   │   ├── logs
+│   │   │   ├── cts
+│   │   │   ├── cvc
+│   │   │   ├── floorplan
+│   │   │   ├── klayout
+│   │   │   ├── magic
+│   │   │   ├── placement
+│   │   │   ├── routing
+│   │   │   └── synthesis
+│   │   ├── reports
+│   │   │   ├── cts
+│   │   │   ├── cvc
+│   │   │   ├── floorplan
+│   │   │   ├── klayout
+│   │   │   ├── magic
+│   │   │   ├── placement
+│   │   │   ├── routing
+│   │   │   └── synthesis
+│   │   ├── results
+│   │   │   ├── cts
+│   │   │   ├── cvc
+│   │   │   ├── floorplan
+│   │   │   ├── klayout
+│   │   │   ├── magic
+│   │   │   ├── placement
+│   │   │   ├── routing
+│   │   │   └── synthesis
+│   │   └── tmp
+│   │       ├── cts
+│   │       ├── cvc
+│   │       ├── floorplan
+│   │       ├── klayout
+│   │       ├── magic
+│   │       ├── placement
+│   │       ├── routing
+│   │       └── synthesis
+
 ![](imagesday1lab/merged.lef.png)
+
+- inside tmp folder is the merged.lef which will be used in subsequent process.
 
 ##### Steps to characterize synthesis results
 

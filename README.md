@@ -309,7 +309,7 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
   
   - We are going to integrate the inverter with picorv32a. To do that we need to extract the lef file of the inverter using magic and tkcon window. An inverted file is premade for the workshow. We also explore magic utilites to modify, add, and label  mag files.
 
-![](imagesday4/tracksinfo.png)  
+![](imagesday4/tracks.info.png)  
   
 - open tracks.info
 
@@ -353,9 +353,9 @@ Co-founder of VLSI System Design (VSD) Corporation Private Limited
 
 - add the modify the config.tcl file as shown.
 
-![](imagesday4/invadded.png)
+![](invadded.png)
 
-=as shown we successfully added the inverter
+- as shown we successfully added the inverter
 
 ![](imagesday4/day4final.png)
 
